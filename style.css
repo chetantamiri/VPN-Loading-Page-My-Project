@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: #0b0c0e;
+  background-color: #ffffff;
+}
+header.hero {
+  background: linear-gradient(to bottom,  #1ba8cf 0%, #fff 100%);
+  padding: 2rem;
+  text-align: center;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  font-weight: bold;
+}
+.hero-text h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.btn {
+  background-color: #008060;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.guarantee {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
+}
+.feature img {
+  width: 60px;
+  margin-bottom: 1rem;
+}
+.feature h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.feature p {
+  font-size: 1rem;
+}
+.btn-sm {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #008060;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3rem 2rem;
+  background-color: #f6f9fb;
+}
+.advantage {
+  text-align: center;
+  flex: 1 1 250px;
+  padding: 1rem;
+}
+.advantage img {
+  width: 50px;
+  margin-bottom: 0.5rem;
+}
+.advantage h4 {
+  margin: 0.5rem 0;
+}
+.map {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #fff0f2;
+}
+.map img {
+  width: 80%;
+  max-width: 700px;
+  margin: 2rem auto;
+}
+.map-info {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-bottom: 1rem;
+}
+.map-info div {
+  font-size: 1.1rem;
+}
+.map-info strong {
+  font-size: 2rem;
+}
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #f0f0f0;
+  font-size: 0.9rem;
+}
